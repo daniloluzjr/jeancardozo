@@ -18,9 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $corpo .= "Mensagem: " . $mensagem . "\n";
 
   // Cabeçalhos do e-mail
-  //$headers = "De: danilojun@gmail.com\r\n";
-  //$headers .= "MIME-Version: 1.0\r\n";
-  //$headers .= "Content-type: text/plain; charset=UTF-8\r\n";
+  $headers = "De: danilojun@gmail.com\r\n";
+  $headers .= "MIME-Version: 1.0\r\n";
+  $headers .= "Content-type: text/plain; charset=UTF-8\r\n";
 
   // Envia o e-mail
   if (mail($destinatario, $assunto, $corpo, $headers)) {
