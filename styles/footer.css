@@ -1,0 +1,107 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 156, 42);
+    color: var(--branco);
+    padding: 3em 0;
+    text-decoration: none;
+    list-style:none
+}
+
+.redes-sociais__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rodape__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 1.0em;
+    text-decoration: none;
+}
+
+.rodape__lista li {
+    margin: 1em 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.rodape__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: var(--branco);
+    list-style: none;
+}
+
+.rodape__logo {
+    margin-top: .6em;
+    font-size: 28px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.danilologo {
+    opacity:0.6;
+}
+
+.rodape__logo--negrito {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.formulario {
+    border: none;
+    width: 100%;
+    padding: 2px;
+    border-radius: 1px;
+    font-size: 16px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.caixaformulario{
+    width: 90%;
+    border-radius: 5%;
+    font-family: Montserrat;
+    font-size: small;
+}
+
+
+.botao {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10%;
+    list-style: none;
+}
+
+.botao:hover {
+    background: #136d1f;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.rodape__marca {
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 798px) {
+    .rodape {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+    .redes-sociais__lista {
+        display: block;
+        text-decoration: none;
+    }
+}
