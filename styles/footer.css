@@ -1,11 +1,12 @@
 .rodape {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgb(42, 156, 42);
     color: var(--branco);
     padding: 3em 0;
     text-decoration: none;
-    list-style:none
+    list-style:none;
+    
 }
 
 .redes-sociais__lista {
@@ -16,6 +17,7 @@
 }
 
 .rodape__titulo {
+    display: flex;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
@@ -24,9 +26,11 @@
 }
 
 .rodape__lista li {
+    display: flex;
     margin: 1em 0;
     text-decoration: none;
     list-style: none;
+    margin-right: 10em;    
 }
 
 .rodape__link {
@@ -46,6 +50,7 @@
 }
 
 .danilologo {
+    margin-left: 10em;
     opacity:0.6;
 }
 
